@@ -68,7 +68,7 @@ Load the extension in your `init.vim` or `init.lua`:
 RECOMMENDED KEYBIND ~
 
 >lua
-    vim.keymap.set("n", "<leader>fc", "<cmd>Telescope cica_icons<cr>", desc = "Find cica icons")
+    vim.keymap.set("n", "<leader>fc", "<cmd>Telescope cica_icons<cr>", { desc = "Find cica icons" })
 <
 
 
