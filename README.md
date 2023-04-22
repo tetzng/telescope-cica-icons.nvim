@@ -44,7 +44,7 @@ require('telescope').load_extension('cica_icons')
 ### Recommended Keybind
 
 ```lua
-vim.keymap.set("n", "<leader>fc", "<cmd>Telescope cica_icons<cr>", desc = "Find cica icons")
+vim.keymap.set("n", "<leader>fc", "<cmd>Telescope cica_icons<cr>", { desc = "Find cica icons" })
 ```
 
 ## Usage
